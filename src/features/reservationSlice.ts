@@ -1,10 +1,10 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-export interface ResertionState {
+export interface ReservationState {
   value: string[];
 }
 
-const initialState: ResertionState = {
+const initialState: ReservationState = {
   value: [],
 };
 
